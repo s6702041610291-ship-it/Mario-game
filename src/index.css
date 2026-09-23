@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: 'Chakra Petch', 'Prompt', sans-serif;
+  }
+  
+  .font-pixel {
+    font-family: 'Press Start 2P', monospace, cursive;
+  }
+}
+
+/* Crisp pixel rendering for 8-bit / 16-bit retro graphics */
+.pixelated {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Retro arcade button press effect */
+.arcade-btn {
+  box-shadow: 0 4px 0 #000;
+  transition: all 0.05s ease-in-out;
+}
+.arcade-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #000;
+}
+
+/* Custom scrollbar for review tables */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

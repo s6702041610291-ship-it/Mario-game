@@ -1,0 +1,6 @@
+{
+  "name": "เกมผจญภัยตะลุยคำมาตรา กน - 2D Pixel Platformer",
+  "description": "เกมตอบคำถามผจญภัยสไตล์เรโทร 2D Pixel Platformer สำหรับนักเรียน ป.3 เรื่องมาตราตัวสะกด แม่ กน พร้อมระบบฟิสิกส์ ระบบเสียงสังเคราะห์ 8-bit และระบบเฉลยละเอียด",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
